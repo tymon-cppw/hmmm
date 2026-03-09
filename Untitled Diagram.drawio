@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="wcMOp7MtTl9tdsgvXZEK">
-    <mxGraphModel dx="1426" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,6 +21,24 @@
         </mxCell>
         <mxCell id="XhdSXkCuosBEcHXqbh_x-36" parent="XhdSXkCuosBEcHXqbh_x-2" style="swimlane;startSize=0;" value="" vertex="1">
           <mxGeometry height="200" width="180" x="10" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FBBf8EdLe9g7vhtv0DYV-1" edge="1" parent="XhdSXkCuosBEcHXqbh_x-2" source="XhdSXkCuosBEcHXqbh_x-2" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.387;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="XhdSXkCuosBEcHXqbh_x-34" value="CredentialManager.getCredential()">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="99" />
+            </Array>
+            <mxPoint x="270" y="379" as="sourcePoint" />
+            <mxPoint x="130" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FBBf8EdLe9g7vhtv0DYV-2" edge="1" parent="XhdSXkCuosBEcHXqbh_x-2" source="XhdSXkCuosBEcHXqbh_x-34" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" value="credentials">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="229" />
+            </Array>
+            <mxPoint x="390" y="379" as="sourcePoint" />
+            <mxPoint x="200" y="249" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="XhdSXkCuosBEcHXqbh_x-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Phone B" vertex="1">
           <mxGeometry height="400" width="200" x="920" y="121" as="geometry" />
@@ -69,7 +87,7 @@
         </mxCell>
         <mxCell id="XhdSXkCuosBEcHXqbh_x-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" value="Call: 4&lt;div&gt;REST: Name: XYZ, DID: abc:abc:abc =&amp;gt; VP&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="321" as="sourcePoint" />
+            <mxPoint x="240" y="350" as="sourcePoint" />
             <mxPoint x="470" y="651" as="targetPoint" />
           </mxGeometry>
         </mxCell>
